@@ -62,7 +62,7 @@ x=[['青年','否','否','一般','no'],
     
     Tree Structure:
     
-    ![img](https://github.com/WoshidaCaiB/casualcode/blob/master/CART/output_3_1.png)
+   ![img](https://github.com/WoshidaCaiB/casualcode/blob/master/CART/output_3_1.png)
 
 #Use the example data from <<机器学习>> for test. This dataset contains continuous values
 
@@ -98,7 +98,7 @@ watermelon=[['qing lv','quan suo','zhuo xiang','qing xi','ao xian','ying hua',0.
 	
     Tree Structure:
     
-    ![img](https://github.com/WoshidaCaiB/casualcode/blob/master/CART/output_4_1.png)
+   ![img](https://github.com/WoshidaCaiB/casualcode/blob/master/CART/output_4_1.png)
     
 Reference:
 
