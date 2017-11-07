@@ -31,19 +31,33 @@ The code for tree visualization is from [1]
 #Use the example data from <<统计学习原理>> to test model
 
 x=[['青年','否','否','一般','no'],
+
    ['青年','否','否','好','no'],
+   
   ['青年','是','否','好','yes'],
+  
   ['青年','是','是','一般','yes'],
+  
   ['青年','否','否','一般','no'],
+  
   ['中年','否','否','一般','no'],
+  
   ['中年','否','否','好','no'],
+  
   ['中年','是','是','好','yes'],
+  
   ['中年','否','是','非常好','yes'],
+  
   ['中年','否','是','非常好','yes'],
+  
   ['老年','否','是','非常好','yes'],
+  
   ['老年','否','是','好','yes'],
+  
   ['老年','是','否','好','yes'],
+  
   ['老年','是','否','非常好','yes'],
+  
   ['老年','否','否','一般','no']]
 
 
@@ -64,7 +78,7 @@ x=[['青年','否','否','一般','no'],
     
    ![img](https://github.com/WoshidaCaiB/casualcode/blob/master/CART/output_3_1.png)
 
-#Use the example data from <<机器学习>> for test. This dataset contains continuous values
+#Use the example data from <<机器学习>> for test. This dataset contains continuous values. Because tree visualization code does not support chinese charater display. I have to use Pinyin to represent the feature value
 
 watermelon=[['qing lv','quan suo','zhuo xiang','qing xi','ao xian','ying hua',0.697,0.460,'yes'],
 
