@@ -67,26 +67,44 @@ x=[['青年','否','否','一般','no'],
 #Use the example data from <<机器学习>> for test. This dataset contains continuous values
 
 watermelon=[['qing lv','quan suo','zhuo xiang','qing xi','ao xian','ying hua',0.697,0.460,'yes'],
+
            ['wu hei','quan suo','chen men','qing xi','ao xian','ying hua',0.774,0.376,'yes'],
+	   
            ['wu hei','quan suo','zhuo xiang','qing xi','ao xian','ying hua',0.634,0.264,'yes'],
+	   
            ['qing lv','quan suo','chen men','qing xi','ao xian','ying hua',0.608,0.318,'yes'],
+	   
            ['qian bai','quan suo','zhuo xiang','qing xi','ao xian','ying hua',0.556,0.215,'yes'],
+	   
            ['qing lv','quan suo','zhuo xiang','qing xi','shao ao','ruan nian',0.403,0.237,'yes'],
+	   
            ['wu hei','quan suo','zhuo xiang','shao hu','shao ao','ruan nian',0.481,0.149,'yes'],
+	   
            ['wu hei','shao quan','zhuo xiang','qing xi','shao ao','ying hua',0.437,0.211,'yes'],
+	   
            ['wu hei','shao quan','chen men','mo hu','shao ao','ying hua',0.666,0.091,'no'],
+	   
            ['qing lv','ying ting','qing cui','qing xi','ping tan','ruan nian',0.243,0.267,'no'],
+	   
            ['qian bai','ying ting','qing cui','mo hu','ping tan','ying hua',0.245,0.057,'no'],
+	   
            ['qian bai','quan suo','zhuo xiang','mo hu','ping tan','ruan nian',0.343,0.099,'no'],
+	   
            ['qing lv','shao quan','zhuo xiang','shao hu','ao xian','ying hua',0.639,0.161,'no'],
+	   
            ['qian bai','shao quan','chen men','mo hu','ao xian','ying hua',0.657,0.198,'no'],
+	   
            ['wu hei','shao quan','zhuao xiang','qing xi','shao ao','ruan nian',0.360,0.370,'no'],
+	   
             ['qian bai','quan suo','zhuo xiang','mo hu','ping tan','ying hua',0.593,0.042,'no'],
+	    
             ['qing lv','quan suo','chen men','shao hu','shao ao','ying hua',0.719,0.103,'no']]
 
     #### CART Tree structure ####
 	
-     {'wen li': {(0, 'qing xi'): {'mi du': {(0, '<0.3815'): 'no', (1, '>0.3815'): 'yes'}}, (1, 'not qing xi'): {'se ze': {(0, 'wu hei'): {'gen di': {(0, 'quan suo'): 'yes', (1, 'not quan suo'): 'no'}}, (1, 'not wu hei'): 'no'}}}}
+     {'wen li': {(0, 'qing xi'): {'mi du': {(0, '<0.3815'): 'no', (1, '>0.3815'): 'yes'}}, (1, 'not qing xi'): {'se ze': {(0, 'wu hei'): 
+     
+     {'gen di': {(0, 'quan suo'): 'yes', (1, 'not quan suo'): 'no'}}, (1, 'not wu hei'): 'no'}}}}
 	 
     #### Predict Labels ####
 	
