@@ -1,6 +1,6 @@
 # Casualcode-ML
 
-causal code for machine learning algorithms...
+casual code for machine learning algorithms...
 
 # 1. Platt SVM
 
@@ -135,3 +135,39 @@ watermelon=[['qing lv','quan suo','zhuo xiang','qing xi','ao xian','ying hua',0.
 Reference:
 
 [1]《机器学习实战》
+
+# 3. KMeans
+
+simple implementation of kmeans. Results are highly sensitive to the initial values of the cluster points
+
+Results:
+
+![img](https://github.com/WoshidaCaiB/casualcode/blob/master/Kmeans/Figure_1.png)
+
+# 4. KNN
+
+Implementation of KNN based on KDTree. See [1] for more details on KDTree
+
+Taking the advantage of KDTree, both training and prediction go much faster
+
+(### Training Stage ###)
+
+Train time: 3.7246341705322266 seconds (42000 samples included)
+
+(### Inference Stage ###)
+
+Inference time: 1.5805480480194092 seconds/sample
+
+Test model on Mnist classification
+
+Results:
+
+![img](https://github.com/WoshidaCaiB/casualcode/blob/master/KNN/res1.png)
+![img](https://github.com/WoshidaCaiB/casualcode/blob/master/KNN/res2.png)
+
+![img](https://github.com/WoshidaCaiB/casualcode/blob/master/KNN/res3.png)
+![img](https://github.com/WoshidaCaiB/casualcode/blob/master/KNN/res4.png)
+
+Reference:
+
+[1]https://github.com/stefankoegl/kdtree
